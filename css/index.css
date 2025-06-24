@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap');
+
+/* font */
+
+.family {
+    font-family: 'unbounded', sans-serif;
+}
+.heading{
+    font-family: 'unbounded', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #111111;
+}
+.subHeading{
+    background-color: #1a76bc71;
+    font-family: 'unbounded', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1A75BC;
+    text-transform: uppercase;
+    padding: 3px 20px;
+    border-radius: 5px;
+    width: fit-content;
+}
+.content{
+    font-family: 'unbounded', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+}
+
+/* Header */
+.logo {
+    width: 320px;
+    height: auto;
+    object-fit: cover;
+    background-color: #1A75BC;
+}
+.header{
+   margin-bottom: -50px;
+}
+
+/* mobile header */
+@media (max-width: 768px) {
+    .logo {
+        width: 200px;
+    }
+
+}
+
+
+/* topSection */
+.topSection {
+    background-image: url('https://irh.centillionhub.com/wp-content/uploads/2025/06/2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+.overlay {
+    background-color: rgba(26, 117, 188, 0.5);
+    height: 85vh;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 85vh;
+}
+
+/* welcom section */
+.welImg{
+    background-image: url('https://irh.centillionhub.com/wp-content/uploads/2025/06/IRH-8.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
+}
+
+.counter{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    height: 100%;
+   
+}
+.counterBox{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height:fit-content;
+    background-color: #1A75BC;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 55px;
+    margin-right: -45px;
+}
+
+.counterNumber{
+   margin-bottom: -5px;
+}
+
+
