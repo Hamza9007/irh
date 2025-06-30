@@ -70,6 +70,29 @@
 
 }
 
+.blueoverlay {
+  background-color: rgba(26, 117, 188, 0.5);
+}
+
+.blackoverlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Btn{
+  font-family: 'unbounded', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      padding: 20px 50px;
+      text-decoration: none;
+      border: 3px solid #1A75BC;
+      border-radius: 5px;
+      background-color: #1A75BC;
+  }
+  .Btn:hover{
+      background-color: #ffffff00;
+      color: #ffffff;
+  }
 
 /* topSection */
 .topSection {
@@ -79,10 +102,7 @@
     background-repeat: no-repeat;
     height: 85vh;
 }
-.overlay {
-    background-color: rgba(26, 117, 188, 0.5);
-    height: 85vh;
-}
+
 .wrap {
     display: flex;
     flex-direction: column;
@@ -102,8 +122,6 @@
     width: 100%;
     object-position: center;
 }
-
-
 .counter{
     display: flex;
     justify-content: flex-end;
@@ -157,16 +175,15 @@
     left: 15px;
     z-index: 3;
     background:#1A75BC;
-    padding: 50px;
-    width: 60px;
-    height: 60px;
+    padding: 40px;
+    width: 10px;
+    height: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
     border-radius: 5px;
-   
   } 
   .cardOverlay {
     position: absolute;
@@ -210,6 +227,7 @@
         padding: 10px 20px;
         text-decoration: none;
         border: 2px solid #fff;
+        border-radius: 5px;
     }
     .cardBtn:hover{
         background-color: #fff;
@@ -277,7 +295,7 @@
     text-align: center;
     transition: background 0.3s ease;
   }
-  
+
   .overlayHeading {
     font-size: 45px;
     font-weight: bold;
@@ -358,8 +376,8 @@
       
       .team-img {
         width: 100%;
-        max-width: 200px;
-        height: auto;
+        max-width: 250px;
+        height: 350px;
         object-fit: cover;
         border-radius: 10px;
       }
@@ -367,7 +385,7 @@
       .social-icon {
         color: #fff;
         background-color: rgba(255,255,255,0.1);
-        padding: 20px;
+        padding: 10px ;
         border-radius: 50%;
         font-size: 16px;
         transition: 0.3s;
@@ -403,7 +421,15 @@
         color: #000;
       }
 
-  
+      .bgImgworkwithirh{
+        background-image: url('../img/workingwithus.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        width: 100%;
+        object-position: center;
+      }
   
 
 
