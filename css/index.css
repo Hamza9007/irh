@@ -83,7 +83,7 @@
       font-size: 18px;
       font-weight: 700;
       color: #fff;
-      padding: 20px 50px;
+      padding: 15px 40px;
       text-decoration: none;
       border: 3px solid #1A75BC;
       border-radius: 5px;
@@ -362,9 +362,9 @@
     justify-items: center;
     width: 70%;
     margin: auto;
-    }
+}
 
-    .team-card {
+.team-card {
         position: relative;
         padding-top: 60px;
         padding-bottom: 60px;
@@ -372,31 +372,31 @@
         color: #fff;
         border-radius: 20px;
         overflow: hidden;
-      }
+}
       
-      .team-img {
+.team-img {
         width: 100%;
         max-width: 250px;
         height: 350px;
         object-fit: cover;
         border-radius: 10px;
-      }
+}
       
-      .social-icon {
+.social-icon {
         color: #fff;
         background-color: rgba(255,255,255,0.1);
         padding: 10px ;
         border-radius: 50%;
         font-size: 16px;
         transition: 0.3s;
-      }
+}
       
-      .social-icon:hover {
+.social-icon:hover {
         background-color: #fff;
         color: #1A75BC;
-      }
+}
       
-      .wave-overlay {
+.wave-overlay {
         position: absolute;
         top: 0;
         left: 0;
@@ -405,23 +405,25 @@
         background: url('https://svgshare.com/i/12tS.svg') no-repeat center;
         background-size: cover;
         z-index: 0;
-      }
+}
       
-      /* Card background variations */
-      .bg-card-1 {
+/* Card background variations */
+.bg-card-1 {
         background: linear-gradient(to bottom, #189B9B, #2d80c4);
-      }
+}
       
-      .bg-card-2 {
+.bg-card-2 {
         background: linear-gradient(to bottom, #0e0e0e, #2d80c4);
-      }
+}
       
-      .bg-card-3 {
+.bg-card-3 {
         background: linear-gradient(to bottom, #d9dfe8, #2d80c4);
         color: #000;
-      }
+}
 
-      .bgImgworkwithirh{
+/* working with irh */
+
+.bgImgworkwithirh{
         background-image: url('../img/workingwithus.jpg');
         background-size: cover;
         background-position: center;
@@ -429,8 +431,37 @@
         object-fit: cover;
         width: 100%;
         object-position: center;
-      }
-  
+}
+
+/* footer */
+.footer-img{
+  background-image: url('../img/footerimg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  object-position: center;
+}
+.footer-overlay{
+  background-color: rgba(26, 118, 188, 0.845);
+}
+.footer-links{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.footerLogo{
+  transition: all 0.5s ease-in-out;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-top: 80px;
+}
+.footerLogo img{
+  width: 100%;
+}
+
 
 
 
